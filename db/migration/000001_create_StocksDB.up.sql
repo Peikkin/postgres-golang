@@ -1,6 +1,6 @@
 CREATE TABLE "stocks" (
-    "stock_id" SERIAL PRIMARY KEY,
+    "id" BIGSERIAL PRIMARY KEY,
     "name" TEXT NOT NULL,
-    "price" INT NOT NULL,
+    "price" BIGINT NOT NULL,
     "company" TEXT NOT NULL
 );
